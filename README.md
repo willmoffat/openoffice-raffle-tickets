@@ -1,4 +1,4 @@
-== Generate raffle tickets using Open Office
+## Generate raffle tickets using Open Office
 
 * Page styles and table go in `content.xml`
 * One row of the table goes in `row.xml`
