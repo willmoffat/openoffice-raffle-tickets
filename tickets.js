@@ -5,9 +5,11 @@ var content = fs.readFileSync('content.xml', {encoding : 'utf8'});
 
 var rows = [];
 
-for (var i = 1; i < 2000; i += 2) {
+for (var i = 1; i < 2000; i += 3) {
   var r = row;
-  r = r.replace('>0000<', '>' + i + '<').replace('>9999<', '>' + (i + 1) + '<');
+  r = r.replace('>0000<', '>' + i + '<')
+          .replace('>1111<', '>' + (i + 1) + '<')
+          .replace('>2222<', '>' + (i + 2) + '<');
   rows.push(r);
 }
 

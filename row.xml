@@ -1,24 +1,22 @@
-	<table:table-row table:style-name="Table1.1">
-	  <table:table-cell table:style-name="Table1.A1">
-	    <text:p text:style-name="P6">
-	    </text:p>
-	    <text:p text:style-name="P3">
-	      <draw:frame svg:width="1.9654in" svg:height="1.0173in">
-		<draw:image xlink:href="Pictures/10000201000000ED0000007A46FD38FD.png" />
-	      </draw:frame>
-	    </text:p>
-	    <text:p text:style-name="P1">0000</text:p>
-	  </table:table-cell>
-	  <table:table-cell table:style-name="Table1.A1">
-	    <text:p text:style-name="P1"/>
-	  </table:table-cell>
-	  <table:table-cell table:style-name="Table1.A1">
-	    <text:p text:style-name="P6"/>
-	    <text:p text:style-name="P3">
-	      <draw:frame svg:width="1.9654in" svg:height="1.0173in">
-		<draw:image xlink:href="Pictures/10000201000000ED0000007A46FD38FD.png" />
-	      </draw:frame>
-	    </text:p>
-	    <text:p text:style-name="P1">9999</text:p>
-	  </table:table-cell>
-	</table:table-row>
+<table:table-row table:style-name="Table1.1">
+
+  <table:table-cell>
+    <text:p text:style-name="style-logo"><draw:frame svg:width="1.0311in" svg:height="0.5161in"><draw:image xlink:href="media/image1.png"/></draw:frame></text:p>
+    <text:p text:style-name="style-digits">0000</text:p>
+  </table:table-cell>
+
+  <table:table-cell table:style-name="Table1.A1"></table:table-cell>
+
+  <table:table-cell>
+    <text:p text:style-name="style-logo"><draw:frame svg:width="1.0311in" svg:height="0.5161in"><draw:image xlink:href="media/image1.png"/></draw:frame></text:p>
+    <text:p text:style-name="style-digits">1111</text:p>
+  </table:table-cell>
+
+  <table:table-cell table:style-name="Table1.A1"></table:table-cell>
+
+  <table:table-cell>
+    <text:p text:style-name="style-logo"><draw:frame svg:width="1.0311in" svg:height="0.5161in"><draw:image xlink:href="media/image1.png"/></draw:frame></text:p>
+    <text:p text:style-name="style-digits">2222</text:p>
+  </table:table-cell>
+
+</table:table-row>
